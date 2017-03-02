@@ -1,2 +1,1 @@
-# attiny85_cat_laser_pointer_machine
-Build your very own Attiny85 motion activated, pan/tilt servo cat laser pointer distractor.
+# Attiny85 Motion Activated Tilt/Pan Laser Pointer (potentially developed to distract the cat)

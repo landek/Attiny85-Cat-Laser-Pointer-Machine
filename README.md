@@ -15,6 +15,7 @@ I had seen other guides for making laser pointers that are attached to servos th
 Depends on how you want to build it. Likely will need a soldering iron, wire cutters, screw drivers, all that good stuff. If you want to make 3D printed parts, obviously a 3D printer, but that is not necessary.
 
 <b>Parts Needed:</b>
+
 <i>note-I really like using Amazon Prime for electronics. Slightly higher prices, but cheaper than Adafruit/Sparkfun, with faster shipping. If shipping time doesn't matter and you want it for cheap, I always like to go with <a href="http://www.banggood.com">Banngood</a>
 
 1. Two Servos: <a href="https://www.amazon.com/TowerPro-SG90-Micro-Servo-2pk/dp/B01608II3Q/ref=sr_1_2?s=toys-and-games&ie=UTF8&qid=1492046990&sr=1-2&keywords=servo">SG90 Micro Servos</a>. You only need two, but its only like 4 more bucks to get 5. These aren't super high quality, so I'd grab some extras, also for future projects
@@ -27,12 +28,14 @@ Depends on how you want to build it. Likely will need a soldering iron, wire cut
 7. PCB Board: Here is a <a href="https://www.amazon.com/Paxcoo-Double-Sided-Board-Prototype/dp/B01M7R5YIB/ref=sr_1_2?ie=UTF8&qid=1492048133&sr=8-2-spons&keywords=pcb&psc=1">link to some</a>, any will do. I always go with double sided. You'll see in the pics I cut a board down significantly to lower the footprint.</i></b>
 
 <b>Powering the Circuit</b>
+
 There are a few ways to do this...
 1. Use a rechargeable lithium ion battery: This is the one I use from <a href="https://www.adafruit.com/product/1578">Adafruit</a> This will just require you to have a male JST connector to power the Attiny85
 2. Use a cellphone power bank and splice an old USB cord to use with it (I love my USB cable that has two jumper cables spliced into it)
 3. Normal batteries–The Attiny85 runs on 5v max. So make sure you don't plug a 9v straight into it. Here is a nice little article on <a href="http://electronics.stackexchange.com/questions/8112/how-do-i-convert-9-v-dc-to-5-v">how to get 9 volts down to 5 volts</a>.
 
 <b>Materials to Put it All Together</b>
+
 There are two key pieces needed to get the whole thing together:
 1. Tilt/Pan Servo Mount: You can 3D print this if you want. Here is <a href="http://www.thingiverse.com/thing:708819">the design I used</a> from Thingiverse. On my most recent iteration though, I said screw it and just bought a <a href="https://www.amazon.com/Camera-Platform-Anti-Vibration-Mount-servo/dp/B00FHRVI5C/ref=pd_cp_147_4?_encoding=UTF8&pd_rd_i=B00FHRVI5C&pd_rd_r=33T20EFP0FE4W4HJW9MJ&pd_rd_w=rnJKE&pd_rd_wg=3U1Pi&psc=1&refRID=33T20EFP0FE4W4HJW9MJ">pre-made, injection molded one</a>.
 2. PIR Sensor Mount: This is pretty easy if you have a 3D printer–one with <a href="http://www.thingiverse.com/search?q=pir+sensor&sa=">quick search on Thingiverse</a>. If you don't have a 3D printer, the PIR sensors do have mounting holes on them, but require pretty small screws (2/56 that you could attached to the enclosure of your choice.
@@ -40,6 +43,7 @@ There are two key pieces needed to get the whole thing together:
 After that, go wild and make it however you want. I've done three iterations basically. Below are a few of my different iterations of construction it...my final iteration is the security camera version. But you could use a cardboard box if you want...
 
 <b>The Code</b>
+
 The code is pretty simple. I mashed up the Arduino example servo sweep , a PIR motion activiation code I found somewhere online and chopped up, and then a simple high/low for the laser.
 
 Biggest place for improvement is obviously how I randomize and create the pattern the laser moves in when motion is deteched. A code that could randomize the servos for a defined number of sweeps would be ideal. Couldn't figure it out and this works for now. Cat is happy.

@@ -25,7 +25,7 @@ Depends on how you want to build it. Likely will need a soldering iron, wire cut
 6. Breadboard, jumper wire, and all that other good stuff.
 <b><i>The following items are only needed if you want to build it onto a PCB and not use a breadboard</i></b>
 7. 8-pin DIP Socket: <a href="https://www.sparkfun.com/products/11801">Here are some on Amazon</a>
-8. PCB Board: Here is a <a href="https://www.amazon.com/Paxcoo-Double-Sided-Board-Prototype/dp/B01M7R5YIB/ref=sr_1_2?ie=UTF8&qid=1492048133&sr=8-2-spons&keywords=pcb&psc=1">link to some</a>, any will do. I always go with double sided. You'll see in the pics I cut a board down significantly to lower the footprint.<i><b>
+8. PCB Board: Here is a <a href="https://www.amazon.com/Paxcoo-Double-Sided-Board-Prototype/dp/B01M7R5YIB/ref=sr_1_2?ie=UTF8&qid=1492048133&sr=8-2-spons&keywords=pcb&psc=1">link to some</a>, any will do. I always go with double sided. You'll see in the pics I cut a board down significantly to lower the footprint.</i></b>
 
 <b>Powering the Circuit</b>
 There are a few ways to do this...

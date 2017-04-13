@@ -5,7 +5,7 @@ I have an active cat that loves to play in any sort of way. Sometimes though...y
 
 I had seen other guides for making laser pointers that are attached to servos that could tilt and pan, but none were quite what I was looking for. There was a lot of guides that showed you how to control a laser pointer/servo with a phone or IR remote. Some required you to take apart a normal laser pointer. Not many used motion detection. Blah! Time to make my own.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gQPztTNuJ8g" frameborder="0" allowfullscreen></iframe>
+Video: https://youtu.be/gQPztTNuJ8g
 
 <b>Goals:</b>
 1. Use an arduino to control two servos
@@ -46,9 +46,22 @@ After that, go wild and make it however you want. I've done three iterations bas
 
 <b>Iteration #1</b>
 
-Using a scaled down version of <a href="http://www.thingiverse.com/thing:607652">this design</a> along with the tilt/pan design linked about. Powering with a 9v battery and a 9v to 5v circuit. Cat liked knocking this over when not in use.
+Using a scaled down version of <a href="http://www.thingiverse.com/thing:607652">this design</a> along with the tilt/pan design linked about. Powering with a 9v battery and a 9v to 5v circuit. Cat liked knocking this over when not in use. This version is a bit older and actually is using an Arduino Nano(overkill), not an Attiny85
 <img src="https://github.com/tonylandek/attiny85_cat_laser_pointer_machine/blob/master/kittylaser.JPG?raw=true"></img>
 
 <b>Iteration #2</b>
-Decided to make my own fully 3D printed structure. Original goal was to house all electronics within the PIR housing and the first tower. The second tower was to hold this particular <a href="http://www.microcenter.com/product/447266/2,600mAh_Power_Bank_Battery_Charger_for_Mobile_Devices_-_White">cheapo power bank</a> from Microcenter.
-https://github.com/tonylandek/attiny85_cat_laser_pointer_machine/blob/master/3D%20Render.jpg
+Decided to make my own fully 3D printed structure. Original goal was to house all electronics within the PIR housing and the first tower. The second tower was to hold this particular <a href="http://www.microcenter.com/product/447266/2,600mAh_Power_Bank_Battery_Charger_for_Mobile_Devices_-_White">cheapo power bank</a> from Microcenter. As you can see in the one inside shot of the PIR casing, it was made to actually hold an Arduino Nano...yeah no. This was when I decided the only way to jam all this stuff in was to go with the Attiny85. Once I did get it all jammed it. It was a mess of wires and really hard to get the battery out to charge. So that led to iteration #3 (and final).
+
+Feel free to download the stl files and print your own!
+
+<img src="https://github.com/tonylandek/attiny85_cat_laser_pointer_machine/blob/master/3D%20Render.jpg?raw=true"></img>
+
+(Add pics 67, 70, 71)
+
+<b>Iteration #3</b>
+With the previous iteration my goal was to get all the elctronics concealed and just never could do it in a clean way. So decided the only obvious way to go would be to buy one of those fake security cameras and mount everything in there.
+
+Link to Camera
+Decided to buy a pre-made tilt/pan
+Need to add power switch and battery charger port
+Need to figure out how to get it so the laser won't spread through the plastic. Cat doesn't care.

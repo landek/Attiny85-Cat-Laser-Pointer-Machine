@@ -5,6 +5,8 @@ I have an active cat that loves to play in any sort of way. Sometimes though...y
 
 I had seen other guides for making laser pointers that are attached to servos that could tilt and pan, but none were quite what I was looking for. There was a lot of guides that showed you how to control a laser pointer/servo with a phone or IR remote. Some required you to take apart a normal laser pointer. Not many used motion detection. Blah! Time to make my own.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gQPztTNuJ8g" frameborder="0" allowfullscreen></iframe>
+
 <b>Goals:</b>
 1. Use an arduino to control two servos
 2. 3D printed parts to combine the servos together for tilt/pan action

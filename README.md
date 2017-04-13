@@ -46,3 +46,7 @@ After that, go wild and make it however you want. I've done three iterations bas
 
 Using a scaled down version of <a href="http://www.thingiverse.com/thing:607652">this design</a> along with the tilt/pan design linked about. Powering with a 9v battery and a 9v to 5v circuit. Cat liked knocking this over when not in use.
 <img src="https://github.com/tonylandek/attiny85_cat_laser_pointer_machine/blob/master/kittylaser.JPG?raw=true"></img>
+
+<b>Iteration #2</b>
+Decided to make my own fully 3D printed structure. Original goal was to house all electronics within the PIR housing and the first tower. The second tower was to hold this particular <a href="http://www.microcenter.com/product/447266/2,600mAh_Power_Bank_Battery_Charger_for_Mobile_Devices_-_White">cheapo power bank</a> from Microcenter.
+https://github.com/tonylandek/attiny85_cat_laser_pointer_machine/blob/master/3D%20Render.jpg
